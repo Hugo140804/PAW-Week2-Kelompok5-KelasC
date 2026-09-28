@@ -6,6 +6,7 @@ Ekstrak seluruh ZIP ke satu folder, lalu buka index.html di browser. Tidak memer
 ## File
 - index.html: homepage baru menggunakan semantic HTML.
 - style.css: CSS eksternal khusus homepage.
+- landing-page.css: CSS ringan untuk landing page, dipisahkan dari HTML tanpa mengubah aturan tampilannya.
 - landing-page.html: halaman sebelumnya, dengan isi paper dan kelima anggota tetap dipertahankan. Ditambahkan tautan kembali ke homepage dan dihapus catatan pengisian anggota yang sudah tidak diperlukan.
 
 ## Enam ketentuan tugas

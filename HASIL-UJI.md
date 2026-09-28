@@ -3,8 +3,9 @@
 ## Sudah diperiksa
 - Kedua file HTML memiliki deklarasi bahasa, charset, dan viewport.
 - Homepage menghubungkan style.css melalui link eksternal.
+- Landing page menghubungkan landing-page.css melalui link eksternal; aturan CSS sama dengan versi tertanam sebelumnya.
 - CSS memuat :root, reset, hero, grid, serta media query pada 1000px dan 700px.
-- Sebanyak 22 tautan internal/referensi file diperiksa: semua file dan target anchor tersedia.
+- Sebanyak 23 tautan internal/referensi file diperiksa: semua file dan target anchor tersedia.
 - Konten penelitian serta kelima nama dan NIM pada landing page dipertahankan.
 - Homepage tidak bergantung pada font, gambar, atau script dari CDN.
 
