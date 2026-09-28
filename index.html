@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kenali Retrieval-Augmented Generation: cara kerja, potensi, dan keterbatasan AI yang menggunakan dokumen sebagai konteks.">
+  <title>RAG Insight | Homepage</title>
+  <!-- 1. CSS eksternal, terpisah dari HTML. -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#utama">Lewati ke konten utama</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="RAG Insight beranda"><span class="brand-icon" aria-hidden="true">R</span>RAG<span>Insight.</span></a>
+      <nav aria-label="Navigasi utama">
+        <ul><li><a href="index.html" aria-current="page">Beranda</a></li><li><a href="#konsep">Konsep</a></li><li><a href="landing-page.html">Ulasan Paper <span aria-hidden="true">↗</span></a></li><li><a href="landing-page.html#anggota">Kelompok</a></li></ul>
+      </nav>
+    </div>
+  </header>
+  <main id="utama">
+    <!-- 3. Hero dengan judul, deskripsi, diagram konsep, dan CTA. -->
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">EKSPLORASI KECERDASAN BUATAN</p>
+        <h1 id="hero-title">Cari konteks.<br>Bangun <span>jawaban.</span></h1>
+        <p class="intro">Mengenal <strong>Retrieval-Augmented Generation</strong>, pendekatan yang menggabungkan pencarian dokumen dengan kemampuan AI menghasilkan teks.</p>
+        <div class="actions"><a class="button primary" href="landing-page.html">Baca ulasan paper <span aria-hidden="true">↗</span></a><a class="button secondary" href="#konsep">Pelajari konsep <span aria-hidden="true">↓</span></a></div>
+        <p class="hero-note">Berdasarkan penelitian Lewis dkk. · NeurIPS 2020</p>
+      </div>
+      <figure class="process" aria-labelledby="process-caption">
+        <div class="process-top"><span>ALUR DASAR RAG</span><span aria-hidden="true">01 / 03</span></div>
+        <ol>
+          <li><span class="step">01</span><div><h2>Pertanyaan</h2><p>Pengguna menyampaikan informasi yang ingin diketahui.</p></div></li>
+          <li><span class="step">02</span><div><h2>Pencarian dokumen</h2><p>Retriever mengambil potongan dokumen yang relevan.</p><span class="tag">Konteks dari sumber eksternal</span></div></li>
+          <li><span class="step">03</span><div><h2>Pembuatan jawaban</h2><p>Generator mengolah pertanyaan dan konteks menjadi teks.</p></div></li>
+        </ol>
+        <figcaption id="process-caption">Dokumen menambah konteks. Ketepatan jawaban tetap perlu diperiksa.</figcaption>
+      </figure>
+    </section>
+    <div class="research-band"><div class="container band-inner"><p>MEMAHAMI RISET</p><p>Pencarian informasi <span aria-hidden="true">/</span> Pemrosesan bahasa <span aria-hidden="true">/</span> Generasi teks</p></div></div>
+    <!-- 4. Grid card berisi informasi utama yang sesuai tema paper. -->
+    <section id="konsep" class="container content-section" aria-labelledby="konsep-title">
+      <div class="section-heading"><div><p class="eyebrow">DASAR SISTEM</p><h2 id="konsep-title">Dua komponen, satu proses.</h2></div><p>RAG memanfaatkan pengetahuan model dan informasi dari dokumen eksternal untuk menyusun jawaban.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card"><span class="card-number">01 / RETRIEVAL</span><h3>Temukan konteks</h3><p>Pada penelitian ini, Dense Passage Retriever (DPR) mengambil potongan Wikipedia yang relevan dengan pertanyaan.</p><a href="landing-page.html#about">Kenali komponen <span aria-hidden="true">↗</span></a></article>
+        <article class="feature-card"><span class="card-number">02 / GENERATION</span><h3>Susun jawaban</h3><p>Model BART menghasilkan teks dengan mempertimbangkan pertanyaan dan dokumen yang ditemukan oleh retriever.</p><a href="landing-page.html#about">Baca ringkasan <span aria-hidden="true">↗</span></a></article>
+        <article class="feature-card"><span class="card-number">03 / POTENSI</span><h3>Perbarui pengetahuan</h3><p>Penggantian indeks dokumen memungkinkan perubahan sumber pengetahuan tanpa harus melatih ulang model pada eksperimen paper.</p><a href="landing-page.html#kekuatan">Telusuri kelebihan <span aria-hidden="true">↗</span></a></article>
+        <article class="feature-card"><span class="card-number">04 / BATASAN</span><h3>Tetap perlu verifikasi</h3><p>Dokumen yang kurang relevan dan kesalahan generasi dapat memengaruhi jawaban. RAG tidak menjamin semua informasi benar.</p><a href="landing-page.html#kekurangan">Pahami keterbatasan <span aria-hidden="true">↗</span></a></article>
+      </div>
+    </section>
+    <section class="container paper-section" aria-labelledby="paper-title"><div class="paper-panel"><div><p class="eyebrow">PAPER PILIHAN KELOMPOK</p><h2 id="paper-title">Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks</h2><p>Patrick Lewis dan rekan-rekan · NeurIPS 2020</p><p class="paper-description">Jelajahi ringkasan penelitian, kelebihan, keterbatasan, dan identitas kelompok pada halaman ulasan.</p></div><a class="button paper-button" href="landing-page.html">Jelajahi ulasan <span aria-hidden="true">↗</span></a></div></section>
+  </main>
+  <footer class="container site-footer"><p><strong>RAG Insight.</strong> <span>Belajar AI melalui penelitian.</span></p><a href="landing-page.html#anggota">Anggota kelompok <span aria-hidden="true">↗</span></a></footer>
+</body>
+</html>
